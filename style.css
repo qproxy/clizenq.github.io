@@ -344,7 +344,7 @@ h1,h2,h3,h4,p {
 }
 
 #boxbox {
-    top: -250px; 
+    top: -150px; 
     transition: top 1s ease-in-out;
 }
 
