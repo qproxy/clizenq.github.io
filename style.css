@@ -243,6 +243,12 @@ h1,h2,h3,h4,p {
 
 }
 
+@media (max-width: 445px) {
+    .navigation {
+        padding-bottom: 5px;
+    }
+}
+
 .main_box {
     max-width: 964px;
     margin: 0 auto;
@@ -326,14 +332,12 @@ h1,h2,h3,h4,p {
 }
 
 #boxbox {
-    position: absolute;
     top: -250px; 
     transition: top 1s ease-in-out;
 }
 
 #boxbox {
     position: relative;
-    right: 300px;
 }
 
 .who-we-are__title {
@@ -506,6 +510,15 @@ h1,h2,h3,h4,p {
     }
 }
 
+@media (max-width: 700px) {
+    .form .contact_info {
+        width: 95%;
+    }
+    .form .container {
+        padding: 0 10px;
+    }
+}
+
 .our_product {
     margin-top: 150px;
 }
@@ -599,12 +612,6 @@ h1,h2,h3,h4,p {
     
 }
 
-@media (max-width: 700px) {
-    .form.container {
-        padding: 0 10px;
-    }
-}
-
 .jeka {
     border-radius: 50% 20px 50% 20px;
     float: left;
@@ -689,12 +696,6 @@ input[type=text], input[type=email], select, textarea {
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
-}
-
-@media (max-width: 700px) {
-    .contact_info {
-        width: 95%;
-    }
 }
 
 .content_one {
