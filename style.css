@@ -245,7 +245,7 @@ h1,h2,h3,h4,p {
 
 @media (max-width: 445px) {
     .navigation {
-        padding-bottom: 5px;
+        padding-bottom: 15px;
     }
 }
 
